@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Training outputs
+runs/
+runs_*/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Data and generated caches
+*.ome.tiff
+*.ome.tif
+*.tiff
+*.tif
+knn_k*.npz
+sphinx_predictions.csv
+predictions.csv
+
+# Downstream analysis outputs (generated at runtime)
+*_TIL.png
+*_TLS.png
+*_CAF.png
+*_hotcold.png
+*_niche_summary.json
+*_hotcold.json
+
+# Prepared sample tables (contain user-specific paths / data)
+*_cell_table*.csv
+
+# Logs and local files
+*.log
+.DS_Store
+.ipynb_checkpoints/
