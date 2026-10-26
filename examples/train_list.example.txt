@@ -1,0 +1,3 @@
+# One sample directory per line
+/path/to/samples/sample_001
+/path/to/samples/sample_002

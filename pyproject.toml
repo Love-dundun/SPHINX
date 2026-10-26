@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sphinx-spatial-proteomics"
+version = "1.0.0"
+description = "SPHINX: cell-aware spatial proteomics prediction from H&E histology"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "SPHINX authors" }]
+license = { file = "LICENSE" }
+keywords = ["spatial proteomics", "histology", "H&E", "graph attention", "cell typing"]
+
+[tool.setuptools]
+packages = ["sphinx"]

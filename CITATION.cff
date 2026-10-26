@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying article."
+title: "SPHINX: Spatial Proteomic inference from Histology with Integrated Neighborhood conteXt"
+type: software
+license: MIT
+version: 1.0.0
+date-released: "2026-10-26"
+abstract: >-
+  SPHINX predicts multiplex protein expression, cell identity and spatial tissue
+  organisation from routine H&E whole-slide images at single-cell resolution.
+  The model combines a dual-scale vision transformer encoder, a biology-prior
+  graph attention module, a spatial neighbourhood graph attention module and a
+  router-multi-gate fusion. Downstream modules provide pseudo-multiplex image
+  rendering, spatial niche analysis (TIL / TLS / CAF) and immune hot/cold
+  tumour phenotyping.
+authors:
+  - family-names: Li
+    given-names: Yunfeng
+  - family-names: Yuan
+    given-names: Haochen
+  - family-names: Lin
+    given-names: Qingxiang Nick
+  - family-names: Li
+    given-names: Dianshuo
+  - family-names: Ren
+    given-names: Yuting
+  - family-names: Hu
+    given-names: Erqiang
+  - family-names: An
+    given-names: Jianhong
+  - family-names: Liu
+    given-names: Qiang
+  - family-names: Prystowsky
+    given-names: Michael B.
+  - family-names: Xiang
+    given-names: Wei
+  - family-names: Deng
+    given-names: Wenjun
+  - family-names: Wu
+    given-names: Di
+  - family-names: Yin
+    given-names: Shanye
+keywords:
+  - computational pathology
+  - spatial proteomics
+  - cell type classification
+  - graph attention network
+  - tumour microenvironment
+  - H&E whole-slide image
